@@ -1,0 +1,82 @@
+section {
+
+    background-image: url(imgs/black.jpg);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: poppins;
+} 
+
+span {
+
+    color: white;
+    font-size: 14px;
+}
+
+input {
+
+    background-color: black;
+}
+
+select {
+
+    cursor:pointer;
+    outline: none;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.button {
+
+    border: rgb(20, 20, 20);
+    color: #fff;
+    background: rgb(167, 33, 60);
+}
+
+.button:hover {
+
+    background: crimson;
+    color: rgb(193, 193, 194);
+}
+
+h2 {
+
+    font-size: 38px;
+    color: #fff;
+}
+
+
+.contact-details {
+
+    line-height: 2.4;
+    color: #fff;
+    font-size: 14px;
+}
+
+h3 {
+
+    color: crimson;
+}
+i {
+
+    color: crimson;
+}
+
+@media(max-width:700px) {
+
+    span {
+
+        display: none;
+    }
+    button {
+        background:none;
+    }
+}
+
+
+.contact-here {
+
+    margin-top: 10%;
+    font-size: 26px;
+}

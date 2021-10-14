@@ -1,0 +1,67 @@
+ * {
+
+    font-family: poppins;
+    
+ }
+
+ .for-image {
+
+    background-image: url(imgs/cup.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+ 
+ }
+
+ .radius {
+
+   border-radius: 100%;
+   margin-left: 22%;
+   height:150px ;
+   width:150px ;
+   
+
+ }
+
+
+ a {
+
+   text-decoration: none;
+   color: crimson;
+ }
+
+ .custom-line {
+
+   color: #fff;
+ }
+
+ .personal-line,.name {
+
+   color: white;
+ }
+
+ .personal-line > span {
+
+   color: crimson;
+   line-height: 2;
+ }
+ .col-3 > a {
+
+   line-height: 1.9;
+ }
+
+ .col-3 >a:hover {
+
+   color: white;
+ }
+
+ .custom-data {
+ 
+   color: #fff;
+ }
+
+ .custom-line {
+
+   line-height: 2;
+ }

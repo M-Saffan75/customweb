@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: poppins; */
+    font-family: Merienda;
+    
+}
+
+.image-information-area {
+    
+    background-image:url('imgs/red-2.jpg') ;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.for-image {
+
+    width: 200px;
+    height: 200px;
+    margin: 5%;
+    justify-content: space-between;
+}
+
+.introduction {
+
+    padding-top: 10%;
+    color: #1b1b1b;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.active {
+
+   color: #1b1b1b;
+   font-weight: bolder;
+   
+}
+
+.active:hover {
+
+    color: white;
+}
+
+.distance {
+
+    color: white;
+    background: #000;
+}
+
+.distance>a:hover {
+
+    color: rgb(218, 190, 190);
+}
+
+.distance>a {
+
+    text-decoration: none;
+    color: white;
+}
+
+.animation {
+
+    font-size: 28px;
+    padding-bottom: 3%;
+
+}
+
+.for-transformation {
+
+    font-size: 20px;
+    cursor: pointer;  
+    color: rgb(56, 51, 51);
+}
+
+.for-transformation:hover {
+
+    color: rgb(0, 0, 0);
+    font-weight: 450;
+}
+
+.footer-custom {
+
+    background:linear-gradient(to right,rgb(182, 40, 40),rgb(172, 48, 48));
+    font-weight: bold;
+}

@@ -1,0 +1,13 @@
+.button {
+
+    background: rgb(173, 38, 38);
+    color: #1b1b1b;
+    outline: none;
+    border: #1b1b1b;
+    margin-top: 5%;
+}
+
+.button:hover {
+
+    background: rgb(167, 17, 17);
+}
